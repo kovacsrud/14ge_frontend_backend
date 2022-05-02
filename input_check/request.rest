@@ -1,0 +1,9 @@
+POST http://localhost:8000/reg
+Content-Type: application/json
+
+{
+    "username":"<H1>valaki</H1>",
+    "password":"titok",
+    "email":"valaki@valahol.hu",
+    "lakcim":"Békéscsaba, <script> alert(\"Hello\")</script>Puskin tér 1."
+}

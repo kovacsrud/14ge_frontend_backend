@@ -1,0 +1,17 @@
+GET http://localhost:8000
+###
+GET http://localhost:8000/api/ingatlan
+###
+POST http://localhost:8000/api/ingatlan
+Content-Type: application/json
+
+{
+    "kategoria":2,
+    "leiras":"Teszt adat....",
+    "hirdetesDatuma":"2022.04.25",
+    "tehermentes":true,
+    "ar":17000000,
+    "kepUrl":"https:/picture.com/apartman.jpg"
+}
+###
+DELETE http://localhost:8000/api/ingatlan/11
